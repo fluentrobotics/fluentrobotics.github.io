@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "From crowd motion prediction to robot navigation in crowds"
+date:   2023-06-21 17:24:59 +00:00
+image: /images/poddar2023pred2nav.png
+categories: research
+newyear: 2023
+author: "Christoforos Mavrogiannis"
+authors: "Sriyash Poddar, Christoforos Mavrogiannis, Siddhartha Srinivasa"
+venue: "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+pdf: /pdfs/poddar2023pred2nav.pdf
+code: https://github.com/sriyash421/Pred2Nav
+video: https://www.youtube.com/watch?v=mzFiXg8KsZ0
+---
+We investigate the transfer of state-of-the-art human motion prediction models to the crowd navigation performance of a mobile robot.

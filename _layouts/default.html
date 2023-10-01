@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DCC2X7SZBT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DCC2X7SZBT');
+    </script>
+  <title>{{ site.name }}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+      <link rel="stylesheet" href="{{ site.baseurl }}/style.css" >
+      <title>fluent robotics lab</title>      
+    <meta name="description" content="Fluent Robotics Lab | University of Michigan">
+    <meta name="keywords" content="robotics, human-robot interaction, multiagent systems, artificial intelligence">
+      <link rel="icon" type="image/jpg" href="images/favicon.ico">    
+    </style>
+  </head>
+
+  
+  <body>
+    <a href="index"><h1 id="name"> <span id="the">the</span><span id="fluent">fluent</span><span id="robotics">robotics</span><span id="the">lab</span> </h1></a>
+    <div id="buttons">
+      <a href="research" class="link"> research </a>
+        <a href="people" class="link"> people </a>      
+        <a href="publications" class="link" style = "color : #FFCB05"> publications </a>  
+        <a href="videos" class="link"> videos </a>      
+    </div>
+
+  <table  style="padding-left: 50px;  margin: 10px 10px 10px 10px;">
+    <tr>
+      <td>
+        <p>See below for a list of selected publications (full list on <a href="https://scholar.google.com/citations?user=dTV6Zj4AAAAJ">Google scholar</a>).</p>
+        <table>
+          {% for post in site.posts %}
+            {% for cat in post.categories %}
+              {% if cat == 'research' %}
+                <tr>
+                  <td>
+                    {% if post.newyear %}
+                      <h2><b>{{post.newyear}}</b></h2>
+                    {% endif %}
+                  </td>
+                </tr>
+                <tr>    
+                  <td style="padding-left: 0px;padding-top: 0px;vertical-align:left">
+                    <img src="/tn{{post.image}}" alt="project image" style="max-width:200px; align : top;" />
+                  </td>
+                  <td style="padding-left: 10px;padding-top: 0px;max-width:500px;vertical-align:left; text-align: justify;">
+                    <h3><b>{{post.title}}</b></h3>
+                    {{post.authors}}
+                    <br>
+                    <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+                    <br>
+                    {% if post.arxiv %}
+                    <a href="{{post.arxiv}}">arxiv</a> /
+                    {% endif %}
+                    {% if post.video %}
+                    <a href="{{post.video}}">video</a> /
+                    {% endif %}
+                    {% if post.code %}
+                    <a href="{{post.code}}">code</a> /
+                    {% endif %}
+                    {% if post.pdf %}
+                    <a href="{{post.pdf}}">pdf</a> /
+                    {% endif %}
+                    {% if post.slides %}
+                    <a href="{{post.slides}}">slides</a> /
+                    {% endif %}
+                    {% if post.website %}
+                    <a href="{{post.website}}">website</a> /
+                    {% endif %}
+                    {% if post.youtube %}
+                    <a href="{{post.youtube}}">youtube</a> /
+                    {% endif %}
+                    {% if post.wafr16-version %}
+                    <a href="{{post.wafr16-version}}">WAFR 2016 version</a> /
+                    {% endif %}
+                    {% if post.wafr18-version %}
+                    <a href="{{post.wafr18-version}}">WAFR 2018 version</a> /
+                    {% endif %}
+                    {% if post.wafr22-version %}
+                    <a href="{{post.wafr22-version}}">WAFR 2022 version</a> /
+                    {% endif %}                   
+                    {% if post.hri19-version %}
+                    <a href="{{post.hri19-version}}">HRI 2019 paper</a> /
+                    {% endif %}
+                    {% if post.hri18-version %}
+                    <a href="{{post.hri18-version}}">HRI 2018 paper</a> /
+                    {% endif %}
+                    <p></p>
+                    {{ post.excerpt }}
+                  </td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <!-- <br> -->
+        <!-- <br> -->
+      </td>
+    </tr>
+  </table>
+</body>
+
+  <div id="text">
+    <hr style="width:100%;margin-left:0">
+    
+  </div> 
+<div id="academicbuttons">
+      <a href="https://robotics.umich.edu/"><img src="images/MRobotics_informal_outlines_digital.svg" height="32" class="footer"/></a>
+      <a href="https://github.com/fluentrobotics"><img src="images/github_icon.png" alt="Github" height="32"></a>
+      <a href="http://www.twitter.com/fluentrobotics"> <img src="images/twitter_icon.png" alt="Twitter" height="32;"></a>
+      <a href="http://www.instagram.com/fluentrobotics"><img src="images/instagram_icon.png" alt="Instagram" height="32"></a>
+      <a href="https://maps.studentlife.umich.edu/building/ford-robotics-building"><img src="images/pin-icon.png" height="32" class="footer"/></a>
+    </div>          
+
+       
+  <div id="text">
+          &#169; 2023-&infin; by the Fluent Robotics Lab; source code adapted from <a href="https://github.com/leonidk/leonidk.github.io">here</a>.<br>
+  </div>   
+
+</html>
+

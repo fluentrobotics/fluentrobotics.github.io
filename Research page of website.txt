@@ -1,0 +1,15 @@
+Research page of website
+
+Our mission is to enable robots to fluently work with and around people in dynamic human environments. To this end, we work across three main thrusts: 
+
+Formalizing multiagent interaction.  We develop mathematical models capturing the dynamics of interaction in multiagent domains, including human-robot systems and multirobot systems. teams of humans and robots research thrust on the mathematics of human-robot interaction has produced a framework for collaboration using Bayesian inference to model the human collaborator, and trajectory optimization to generate fluent collaborative plans. Our work to date has made fundamental contributions to human-robot handovers, shared autonomy, the expressiveness of robot motion, and game-theoretic models of human-robot collaboration.
+
+Human-aware motion planning. We develop mathematical models connecting robot behavior to human impressions. human thrust on nonprehensile physics-based manipulation has produced simple but effective models, integrated with proprioception and perception, that have enabled robots to fearlessly push, pull, and slide objects, and reconfigure clutter that comes in the way of their primary task. Our work has made fundamental contributions to motion planning, trajectory optimization, state estimation, and information gathering for manipulation.
+
+Human-machine teaming. We study scenarios of explicit and implicit human-robot collaboration across realistic domains.
+
+Common to all of our research is a unifying philosophy: We build mathematical models of physical behavior. Using these models we have transferred behaviors from humans to robots, and across robots.
+
+We also passionate about building end-to-end systems (HERB, ADA, HRP3, CHIMP, Andy, among others) that integrate perception, planning, and control in the real world. Understanding the interplay between system components has helped us produce state-of-the-art algorithms for object recognition and pose estimation (MOPED), and dense 3D modeling (CHISEL, now used by Google Project Tango).
+
+Much of our work is open source and available on GitHub.
