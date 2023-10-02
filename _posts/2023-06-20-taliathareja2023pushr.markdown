@@ -7,7 +7,7 @@ categories: research
 author: "Christoforos Mavrogiannis"
 authors: "Sidharth Talia, Arnav Thareja, Christoforos Mavrogiannis, Matt Schmittle, Siddhartha Srinivasa"
 venue: "International Conference on Intelligent Robots and Systems"
-pdf: pdfs/poddar2023pred2nav.pdf
+pdf: pdfs/taliathareja2023pushr.pdf
 code: https://github.com/prl-mushr/pushr
 video: https://www.youtube.com/watch?v=nyUn9mHoR8Y
 ---
