@@ -4,6 +4,7 @@ title:  "Analyzing multiagent interactions in traffic scenes via topological bra
 date:   2022-03-01 21:21:53 +00:00
 image: /images/mavrogiannis2022analyzing.jpg
 categories: research
+newyear: 2022
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Christoforos Mavrogiannis, Jonathan DeCastro, Siddhartha Srinivasa"
 author: "Christoforos Mavrogiannis"
