@@ -1,2 +1,0 @@
-I"6<p>We use a LSTM-based architecture to learn a mapping from trajectories to a probability distribution over multiagent navigation strategies, encoded as topological braids. We show that this model enables non-communicating agents to coordinate efficienty across a seris of challenging simulated scenarios.</p>
-:ET

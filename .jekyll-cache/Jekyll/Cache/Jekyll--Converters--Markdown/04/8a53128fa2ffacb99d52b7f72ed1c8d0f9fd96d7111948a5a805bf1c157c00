@@ -1,2 +1,0 @@
-I"r<p>We construct a probabilistic model that maps past behavior of multiple agents to a future mode represented as a topological braid. We design a control algorithm that treats navigation at uncontrolled intersections as uncertainty minimization over the space of modes, enabling agents to collectively reject unsafe intersection traversals in a distributed fashion.</p>
-:ET

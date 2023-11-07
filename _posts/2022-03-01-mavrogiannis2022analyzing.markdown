@@ -9,7 +9,7 @@ venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Christoforos Mavrogiannis, Jonathan DeCastro, Siddhartha Srinivasa"
 author: "Christoforos Mavrogiannis"
 video: https://youtu.be/Q7xZPFj52lQ
-pdf: https://arxiv.org/pdf/2109.07060
+pdf: pdfs/mavrogiannis2022analyzing.pdf
 ---
 We show that topological braids can be used as a tool to characterize the interactivity of vehicles, which can be useful for evaluating the richness of existing datasets, but also for synthetically designing balanced training datasets and benchmarks.
 
