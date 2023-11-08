@@ -14,7 +14,8 @@
   <title>{{ site.name }}</title>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="{{ site.baseurl }}/style.css" >
       <title>fluent robotics lab</title>      
     <meta name="description" content="Fluent Robotics Lab | University of Michigan">
@@ -48,11 +49,14 @@
                     {% endif %}
                   </td>
                 </tr>
+                            <!-- <p><img class = "images" src="/tn/images/social-nav.png" alt="attributions" style = "align : top; float : left; margin-right:20px; margin-bottom:20px; border-radius: 0%"></p>           -->
+
                 <tr>    
-                  <td style="padding-left: 0px;padding-top: 0px;vertical-align:left">
-                    <img src="/tn{{post.image}}" alt="project image" style="max-width:200px; align : top;" />
+                  <!-- <td style="padding-left: 0px;padding-top: 0px;vertical-align:left"> -->
+                  <td style="padding-left: 0px;padding-top: 0px;max-width:200px;vertical-align:left; text-align: left;">
+                    <p><img class = "images" src="/tn{{post.image}}" alt="project image" style = "align : top; float : left; align : top; float : left; margin-right:20px; margin-bottom:20px; border-radius: 0%" /></p>
                   </td>
-                  <td style="padding-left: 10px;padding-top: 0px;max-width:500px;vertical-align:left; text-align: justify;">
+                  <td style="padding-left: 10px;padding-top: 0px;max-width:500px;vertical-align:left; text-align: left;">
                     <h3><b>{{post.title}}</b></h3>
                     {{post.authors}}
                     <br>
