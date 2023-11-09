@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "HOUND: An open-source, low-cost research platform for high-speed off-road underactuated nonholonomic driving"
+date:   2023-09-29 21:21:53 +00:00
+image: /images/talia2023hound.png
+categories: research
+venue: "Submitted to ICRA 2024"
+authors: "Sidharth Talia, Matt Schmittle, Alexander Lambert, Alexander Spitzer, Christoforos Mavrogiannis, Siddhartha S. Srinivasa"
+author: "Christoforos Mavrogiannis"
+# code: https://github.com/angmavrogiannis/Cook2LTL-Translating-Cooking-Recipes-to-Primitive-LTL-Action-Formulae
+# video: https://youtu.be/5Q5cdcPN_2E
+# pdf: https://arxiv.org/abs/2310.00163
+---
+We present HOUND, a small-scale, inexpensive, off-road autonomy platform that handles challenging off-road terrains at high speeds through the integration of a rollover prevention system. HOUND is integrated with a complete stack for perception and control. 

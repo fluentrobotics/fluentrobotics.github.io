@@ -5,7 +5,7 @@ date:   2023-09-29 21:21:53 +00:00
 image: /images/mavrogiannis2023cook2ltl.png
 categories: research
 newyear: Preprints
-venue: "Preprint (submitted to ICRA)"
+venue: "Preprint (submitted to ICRA 2024)"
 authors: "Angelos Mavrogiannis, Christoforos Mavrogiannis, Yiannis Aloimonos"
 author: "Christoforos Mavrogiannis"
 code: https://github.com/angmavrogiannis/Cook2LTL-Translating-Cooking-Recipes-to-Primitive-LTL-Action-Formulae
