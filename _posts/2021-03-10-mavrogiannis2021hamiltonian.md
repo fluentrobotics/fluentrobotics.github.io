@@ -7,7 +7,7 @@ categories: research
 venue: "The International Journal of Robotics Research, WAFR 2018 special issue"
 authors: "Christoforos Mavrogiannis, Ross Knepper"
 author: "Christoforos Mavrogiannis"
-pdf: https://journals.sagepub.com/doi/pdf/10.1177/02783649211037731
+pdf: pdfs/mavrogiannis2021hamiltonian.pdf
 wafr16-version: /pdfs/mavrogiannis2018invariants.pdf
 ---
 We present a framework that generates multiagent trajectories satisfying desired topological specifications and use it to build a decentralized control policy for navigation in multiagent domains.

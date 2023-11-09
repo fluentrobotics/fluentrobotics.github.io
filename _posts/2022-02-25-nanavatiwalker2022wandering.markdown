@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Not All Who Wander Are Lost: A Localization-Free System for In-The-Wild Mobile Robot Deployments"
+title:  "Not all who wander are lost: A localization-free system for in-the-wild mobile robot deployments"
 date:   2022-03-01 21:21:53 +00:00
 image: /images/nanavati2022wandering.jpg
 categories: research

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cook2LTL: Translating cooking recipes to LTL formulae using large Language Models"
+title:  "Cook2LTL: Translating cooking recipes to LTL formulae using large language models"
 date:   2023-09-29 21:21:53 +00:00
 image: /images/mavrogiannis2023cook2ltl.png
 categories: research

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Group-based Motion Prediction for Navigation in Crowded Environments"
+title:  "Group-based motion prediction for navigation in crowded environments"
 date:   2021-11-26 21:21:53 +00:00
 image: /images/wang2021group.png
 categories: research
@@ -9,6 +9,6 @@ venue: "Proceedings of the Conference on Robot Learning (CoRL)"
 authors: "Allan Wang, Christoforos Mavrogiannis, and Aaron Steinfeld"
 author: "Christoforos Mavrogiannis"
 code: https://github.com/CMU-TBD/Group_based_navigation_v1
-pdf: https://proceedings.mlr.press/v164/wang22e/wang22e.pdf
+pdf: pdfs/wang2021groupbased.pdf
 ---
 Inspired by Gestalt theories from psychology, we build a group-based prediction model and integrate it into a MPC, demonstrating higher safety and fewer group intrusions compared to baselines using individual motion prediction across extensive simulations and real-world pedestrian datasets. 

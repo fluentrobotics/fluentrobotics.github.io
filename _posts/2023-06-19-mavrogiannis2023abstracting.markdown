@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Abstracting Road Traffic via Topological Braids: Applications to Traffic Flow Analysis and Distributed Control"
+title:  "Abstracting road traffic via topological braids: Applications to traffic flow analysis and distributed control"
 date:   2023-06-19 22:21:59 +00:00
 image: /images/mavrogiannis2023abstracting.png
 categories: research

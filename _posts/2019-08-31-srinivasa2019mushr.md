@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research"
+title:  "MuSHR: A low-cost, open-source robotic racecar for education and research"
 date:   2019-08-31 21:21:53 +00:00
 image: /images/srinivasa2019mushr.jpeg
 categories: research

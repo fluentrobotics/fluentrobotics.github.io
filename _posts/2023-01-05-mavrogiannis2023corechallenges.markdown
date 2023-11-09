@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Core Challenges of Social Robot Navigation: A survey"
+title:  "Core challenges of social robot navigation: A survey"
 date:   2023-01-05 22:21:59 +00:00
 image: /images/mavrogiannis2023corechallenges.png
 categories: research

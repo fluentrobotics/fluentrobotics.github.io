@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Multimodal Trajectory Prediction via Topological Invariance for Navigation at Uncontrolled Intersections"
+title:  "Multimodal trajectory prediction via topological invariance for navigation at uncontrolled intersections"
 date:   2020-07-10 21:21:53 +00:00
 image: /images/roh2020invariance.jpg
 categories: research
