@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Task-specific grasp selection for underactuated hands"
+title:  "Open-Source, Affordable, Modular, Light-Weight, Underactuated Robot Hands"
 date:   2014-10-01 21:21:53 +00:00
 image: /images/zisimatos2014robothands.png
 categories: research
