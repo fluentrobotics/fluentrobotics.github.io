@@ -7,8 +7,8 @@ categories: research
 venue: "Submitted to ICRA 2024"
 authors: "Sidharth Talia, Matt Schmittle, Alexander Lambert, Alexander Spitzer, Christoforos Mavrogiannis, Siddhartha S. Srinivasa"
 author: "Christoforos Mavrogiannis"
-# code: https://github.com/angmavrogiannis/Cook2LTL-Translating-Cooking-Recipes-to-Primitive-LTL-Action-Formulae
+project: https://sites.google.com/view/prl-hound
 # video: https://youtu.be/5Q5cdcPN_2E
-# pdf: https://arxiv.org/abs/2310.00163
+pdf: https://arxiv.org/abs/2311.11199
 ---
 We present HOUND, a small-scale, inexpensive, off-road autonomy platform that handles challenging off-road terrains at high speeds through the integration of a rollover prevention system. HOUND is integrated with a complete stack for perception and control. 
