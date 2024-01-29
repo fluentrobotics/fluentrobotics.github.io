@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HOUND: An open-source, low-cost research platform for high-speed off-road underactuated nonholonomic driving"
-date:   2023-09-29 21:21:53 +00:00
-image: /images/talia2023hound.png
+date:   2024-01-29 12:00:53 +00:00
+image: /images/talia2024hound.png
 categories: research
-venue: "Submitted to ICRA 2024"
+venue: "In submission"
 authors: "Sidharth Talia, Matt Schmittle, Alexander Lambert, Alexander Spitzer, Christoforos Mavrogiannis, Siddhartha S. Srinivasa"
 author: "Christoforos Mavrogiannis"
 project: https://sites.google.com/view/prl-hound

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Electrostatic brakes enable individual joint control of underactuated, highly articulated robots"
-date:   2023-09-01 21:21:53 +00:00
+date:   2024-01-29 00:21:53 +00:00
 image: /images/lancaster2022brakes.png
 categories: research
 venue: "Preprint (submitted to IJRR)"
