@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Electrostatic brakes enable individual joint control of underactuated, highly articulated robots"
-date:   2024-01-29 00:21:53 +00:00
+date:   2024-01-01 00:21:53 +00:00
 image: /images/lancaster2022brakes.png
 categories: research
-venue: "Preprint (submitted to IJRR)"
+venue: "The International Journal of Robotics Research"
 authors: "Patrick Lancaster, Christoforos Mavrogiannis, Siddhartha Srinivasa, Joshua Smith"
 author: "Christoforos Mavrogiannis"
 video: https://www.youtube.com/watch?v=XQ68OvDI3Hw
