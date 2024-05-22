@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "HOUND: An open-source, low-cost research platform for high-speed off-road underactuated nonholonomic driving"
-date:   2024-01-20 12:00:53 +00:00
+title:  "Demonstrating HOUND: A Low-cost Research Platform for High-speed Off-road Underactuated Nonholonomic Driving"
+date:   2024-01-01 12:01:53 +00:00
 image: /images/talia2024hound.png
 categories: research
 venue: "Robotics: Science and Systems (RSS)"
 authors: "Sidharth Talia, Matt Schmittle, Alexander Lambert, Alexander Spitzer, Christoforos Mavrogiannis, Siddhartha S. Srinivasa"
 author: "Christoforos Mavrogiannis"
+note:
 project: https://sites.google.com/view/prl-hound
 # video: https://youtu.be/5Q5cdcPN_2E
 pdf: https://arxiv.org/abs/2311.11199
