@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "ReloPush: Multi-object Rearrangement in Confined Spaces with a Nonholonomic Mobile Robot Pusher"
+date:   2024-09-01 12:01:53 +00:00
+image: /images/ahn2024relopush.png
+categories: research
+venue: "Under review in: IEEE International Conference on Robotics and Automation (ICRA)"
+newyear: Preprints
+authors: "Jeeho Ahn, and Christoforos Mavrogiannis"
+author: "Christoforos Mavrogiannis"
+note:
+# project: https://sites.google.com/view/prl-hound
+video: https://www.youtube.com/watch?v=LVquAcu7ZrQ
+pdf: https://arxiv.org/abs/2409.18231
+---
+We develop ReloPush, a planning framework for rearranging multiple objects in cluttered spaces with a nonholonomic mobile robot pusher. 
