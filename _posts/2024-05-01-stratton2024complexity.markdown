@@ -5,7 +5,6 @@ date:   2024-05-01 12:01:53 +00:00
 image: /images/stratton2024complexity.png
 categories: research
 venue: "Under review in: IEEE Robotics and Automation Letters"
-newyear: Preprints
 authors: "Andrew Stratton, Kris Hauser, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
