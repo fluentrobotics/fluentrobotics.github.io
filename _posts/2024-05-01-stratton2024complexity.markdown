@@ -9,6 +9,7 @@ authors: "Andrew Stratton, Kris Hauser, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
 # project: https://sites.google.com/view/prl-hound
+code: https://github.com/fluentrobotics/ComplexityNav
 video: https://www.youtube.com/watch?v=-ir12VoSCkY
 pdf: https://arxiv.org/abs/2405.11410
 ---
