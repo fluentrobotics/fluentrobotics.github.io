@@ -8,7 +8,7 @@ venue: "IEEE Robotics and Automation Letters"
 authors: "Andrew Stratton, Kris Hauser, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
-newyear: 2025
+year: 2025
 # project: https://sites.google.com/view/prl-hound
 code: https://github.com/fluentrobotics/ComplexityNav
 video: https://www.youtube.com/watch?v=-ir12VoSCkY
