@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "Implicit Communication in Human-Robot Collaborative Transport"
-date:   2024-12-04 12:01:53 +00:00
+date:   2025-01-05 12:01:53 +00:00
 image: /images/yang2025implicit.jpg
 categories: research
-venue: "ACM/IEEE International Conference on Human-Robot Interaction"
+venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
 authors: "Elvin Yang and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note: acceptance rate 25%
 newyear: 2025
 # project: https://sites.google.com/view/prl-hound
-# code: 
-# video: 
-# pdf: 
+code: https://github.com/fluentrobotics/icmpc_collab_transport
+video: https://youtu.be/0NTDrobSifg
+pdf: /pdfs/yang2025implicit.pdf
 ---
 We developed an algorithmic framework that leverages implicit nonverbal communication via robot motion cues to enable fluent human-robot collaboration on the task of transporting an object. 

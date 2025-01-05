@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Characterizing the Complexity of Social Robot Navigation Scenarios"
-date:   2024-05-01 12:01:53 +00:00
+date:   2025-01-04 12:01:53 +00:00
 image: /images/stratton2024complexity.png
 categories: research
 venue: "IEEE Robotics and Automation Letters"
