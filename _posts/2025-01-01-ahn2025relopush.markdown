@@ -4,7 +4,7 @@ title:  "ReloPush: Multi-object Rearrangement in Confined Spaces with a Nonholon
 date:   2025-01-05 01:51:53 +00:00
 image: /images/ahn2024relopush.png
 categories: research
-venue: "Under review at IEEE International Conference on Robotics and Automation (ICRA)"
+venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Jeeho Ahn, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
