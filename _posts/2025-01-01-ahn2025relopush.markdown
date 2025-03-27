@@ -11,7 +11,7 @@ note:
 year: 2025
 # project: https://sites.google.com/view/prl-hound
 code: https://github.com/fluentrobotics/ReloPush
-video: https://www.youtube.com/watch?v=LVquAcu7ZrQ
+video: https://youtu.be/_EwHuF8XAjk
 pdf: https://arxiv.org/abs/2409.18231
 ---
 We developed ReloPush, a planning framework for rearranging multiple objects in cluttered spaces with a nonholonomic mobile robot pusher. 
