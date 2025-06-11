@@ -8,7 +8,7 @@ newyear:
 author: "Christoforos Mavrogiannis"
 authors: "Christoforos Mavrogiannis, Jonathan DeCastro, Siddhartha Srinivasa"
 venue: "The International Journal of Robotics Research, WAFR 2022 Special Issue"
-pdf: pdfs/mavrogiannis2023abstracting.pdf
+pdf: pdfs/mavrogiannis2024abstracting.pdf
 wafr22-version: pdfs/mavrogiannis2022implicit.pdf
 ---
 We abstract road traffic using topological braids. We show that braids may uncover insights about the interactivity of vehicles in complex scenes, and guide decision making of non-communicating agents.
