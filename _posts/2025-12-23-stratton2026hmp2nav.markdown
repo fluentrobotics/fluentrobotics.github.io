@@ -12,7 +12,7 @@ note: acceptance rate 23%
 newyear: 2026
 # project: https://sites.google.com/view/prl-hound
 code: 
-video: 
+video: https://youtu.be/QGd5vQMhXqY
 pdf: pdfs/stratton2026hmp2nav.pdf
 ---
 We study the connections between human motionn prediction quality and social robot navigation performance through two empirical studies (N=80).
