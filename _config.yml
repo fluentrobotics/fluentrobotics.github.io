@@ -55,7 +55,7 @@ url: "https://fluentrobotics.github.io" # the base hostname & protocol for your 
 #
 
 #permalink: /:title/
-permalink: /publications
+permalink: /research
 
 
 # The release of Jekyll Now that you're using
