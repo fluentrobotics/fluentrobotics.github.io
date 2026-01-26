@@ -9,10 +9,10 @@ authors: "Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, a
 author: "Christoforos Mavrogiannis"
 note:
 note: acceptance rate 23%
-newyear: 2026
+year: 2026
 # project: https://sites.google.com/view/prl-hound
 code: 
 video: https://youtu.be/QGd5vQMhXqY
 pdf: pdfs/stratton2026hmp2nav.pdf
 ---
-We study the connections between human motionn prediction quality and social robot navigation performance through two empirical studies (N=80).
+We study the connections between human motion prediction quality and social robot navigation performance through two empirical studies (N=80).
