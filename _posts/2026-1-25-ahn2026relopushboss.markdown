@@ -13,7 +13,7 @@ note:
 newyear: 2026
 # project: https://sites.google.com/view/prl-hound
 code: 
-video: TBD
+video: https://youtu.be/fI3A--OZy_4
 pdf: pdfs/ahn2026relopushboss.pdf
 ---
 We study nonomonote instances of nonprehensile rearrangement for a car-like robot pusher, introducing ReloPush-BOSS, an optimization-based extension of our ICRA 2025 paper <a href="/pdfs/ahn2025relopush.pdf">ReloPush</a>.
