@@ -11,7 +11,7 @@ author: "Christoforos Mavrogiannis"
 note:
 note: 
 newyear: 2026
-# project: https://sites.google.com/view/prl-hound
+project: https://fluentrobotics.com/relopushboss
 code: 
 video: https://youtu.be/fI3A--OZy_4
 pdf: pdfs/ahn2026relopushboss.pdf
