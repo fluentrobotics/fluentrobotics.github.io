@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Bi<sup>3</sup>: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation"
+date:   2025-12-23 01:51:53 +00:00
+image: /images/stratton2026bi3.jpg
+categories: research
+venue: "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)"
+authors: "Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, and Christoforos Mavrogiannis"
+author: "Christoforos Mavrogiannis"
+note:
+note: acceptance rate 38%
+year: 2026
+# project: https://sites.google.com/view/prl-hound
+code: 
+video: TBD
+pdf: pdfs/stratton2026bi3.pdf
+---
+We present a new multimodal social robot navigation dataset involving robot navigation among groups of two people, collected in two different sites and featuring two different robot platforms.
