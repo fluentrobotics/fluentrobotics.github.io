@@ -10,7 +10,7 @@ author: "Christoforos Mavrogiannis"
 note:
 note: acceptance rate 38%
 year: 2026
-# project: https://sites.google.com/view/prl-hound
+project: https://fluentrobotics.com/bi3dataset/
 code: 
 video: TBD
 pdf: pdfs/stratton2026bi3.pdf
