@@ -12,7 +12,7 @@ note: acceptance rate 38%
 year: 2026
 project: https://fluentrobotics.com/bi3dataset/
 code: 
-video: TBD
+video: https://youtu.be/z55M_um_7fQ
 pdf: pdfs/stratton2026bi3.pdf
 ---
 We present a new multimodal social robot navigation dataset involving robot navigation among groups of two people, collected in two different sites and featuring two different robot platforms.
