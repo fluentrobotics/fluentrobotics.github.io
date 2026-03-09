@@ -2,7 +2,7 @@
 layout: post
 title:  "Bi<sup>3</sup>: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation"
 date:   2025-12-23 01:51:53 +00:00
-image: /images/stratton2026bi3.jpg
+image: /images/stratton2026bi3dataset.jpg
 categories: research
 venue: "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, and Christoforos Mavrogiannis"
@@ -13,6 +13,6 @@ year: 2026
 project: https://fluentrobotics.com/bi3dataset/
 code: 
 video: https://youtu.be/z55M_um_7fQ
-pdf: pdfs/stratton2026bi3.pdf
+pdf: pdfs/stratton2026bi3dataset.pdf
 ---
 We present a new multimodal social robot navigation dataset involving robot navigation among groups of two people, collected in two different sites and featuring two different robot platforms.
