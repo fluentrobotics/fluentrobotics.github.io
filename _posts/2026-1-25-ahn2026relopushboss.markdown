@@ -10,7 +10,7 @@ authors: "Jeeho Ahn and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
 note: 
-newyear: 2026
+year: 2026
 project: https://fluentrobotics.com/relopushboss
 code: 
 video: https://youtu.be/fI3A--OZy_4
