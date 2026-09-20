@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Optimization-guided Nonmonotone Rearrangement Planning
+title:  "ReloPush-BOSS: Optimization-guided Nonmonotone Rearrangement Planning
 for a Car-like Robot Pusher"
 date:   2025-12-26 01:51:53 +00:00
 image: /images/ahn2026relopushboss.png
