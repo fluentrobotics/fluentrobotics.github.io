@@ -4,7 +4,7 @@ title:  "Rethinking Legibility in Social Robot Navigation: Impact of Intent Repr
 date:   2025-12-22 01:51:53 +00:00
 image: /images/goyal2026rethinking.jpg
 categories: research
-venue: "Late Breaking Reports, ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
+venue: "ACM Transactions on Human-Robot Interaction"
 authors: "Pranav Goyal, Andrew Stratton, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
