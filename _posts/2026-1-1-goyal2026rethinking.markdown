@@ -13,6 +13,6 @@ year: 2026
 # project: https://sites.google.com/view/prl-hound
 code: 
 video:
-pdf: pdfs/goyal2026rethinking.pdf
+pdf: https://arxiv.org/abs/2609.40158
 ---
 We investigate how the choice of the representation of intent and the level of human (in)attention impact the effectiveness of legible robot motion in social navigation domains.
