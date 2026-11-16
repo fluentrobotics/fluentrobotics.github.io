@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rethinking Legibility in Social Robot Navigation: Impact of Intent Representation and Human Attention"
+title:  "Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation"
 date:   2025-12-22 01:51:53 +00:00
 image: /images/goyal2026rethinking.jpg
 categories: research
