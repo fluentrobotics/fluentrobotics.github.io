@@ -4,6 +4,8 @@ title:  "Implicit communication in a joint action"
 date:   2017-03-10 21:21:53 +00:00
 image: /images/knepper2017implicit.png
 categories: research
+year: 2017
+venue_short: "HRI '17"
 venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
 authors: "Ross Knepper, Christoforos Mavrogiannis, Julia Proft, Claire Liang"
 author: "Christoforos Mavrogiannis"

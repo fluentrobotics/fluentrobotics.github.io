@@ -5,15 +5,16 @@ for a Car-like Robot Pusher"
 date:   2025-12-26 01:51:53 +00:00
 image: /images/ahn2026relopushboss.png
 categories: research
+year: 2026
+venue_short: "RA-L '26"
 venue: "IEEE Robotics and Automation Letters"
 authors: "Jeeho Ahn and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
 note: 
-year: 2026
 project: https://fluentrobotics.com/relopushboss
 code: 
 video: https://youtu.be/fI3A--OZy_4
 pdf: pdfs/ahn2026relopushboss.pdf
 ---
-We study nonomonote instances of nonprehensile rearrangement for a car-like robot pusher, introducing ReloPush-BOSS, an optimization-based extension of our ICRA 2025 paper <a href="/pdfs/ahn2025relopush.pdf">ReloPush</a>.
+We study nonmonotone instances of nonprehensile rearrangement for a car-like robot pusher, introducing ReloPush-BOSS, an optimization-based extension of our ICRA 2025 paper <a href="/pdfs/ahn2025relopush.pdf">ReloPush</a>.

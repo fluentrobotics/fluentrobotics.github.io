@@ -42,7 +42,7 @@ google_analytics: G-DCC2X7SZBT
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "https://fluentrobotics.github.io" # the base hostname & protocol for your site
+url: "https://fluentrobotics.com" # the base hostname & protocol for your site (matches CNAME)
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -54,8 +54,20 @@ url: "https://fluentrobotics.github.io" # the base hostname & protocol for your 
 # !! You don't need to change any of the configuration flags below !!
 #
 
-#permalink: /:title/
-permalink: /research
+# Each paper in _posts gets its own page at /pubs/<file-name-without-date>,
+# e.g. _posts/2026-1-25-ahn2026relopushboss.markdown -> /pubs/ahn2026relopushboss
+# The publication list itself is research.html.
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /pubs/:title
+      nav: research
+
+# Used for page descriptions and link previews when a page doesn't set its own
+lab_description: "The Fluent Robotics Lab at the University of Michigan develops algorithms, systems, and human-machine interfaces that enable robots to fluently work with and around people."
 
 
 # The release of Jekyll Now that you're using
@@ -73,7 +85,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :compressed # You might prefer to minify using :compressed
+  style: compressed # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 plugins:
@@ -91,3 +103,6 @@ exclude:
   - todo.txt
   - _temp/index.html
   - _temp/
+  - Research page of website.txt
+  - _make_favicon.sh
+  - _make_thumbnails.sh

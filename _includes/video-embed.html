@@ -1,0 +1,15 @@
+{%- comment -%}
+  A video in a 16:9 frame. For YouTube (youtube=ID) it shows the thumbnail with a play button and only
+  loads the YouTube player when someone clicks, which keeps pages light. Other videos (embed=URL) load as usual.
+  Usage: {% include video-embed.html youtube="ID" title="..." %} or {% include video-embed.html embed="URL" title="..." %}
+{%- endcomment -%}
+<div class="video">
+  {%- if include.youtube and include.youtube != "" %}
+  <a class="video-facade" href="https://www.youtube.com/watch?v={{ include.youtube }}" data-youtube="{{ include.youtube }}" data-title="{{ include.title | escape }}" aria-label="Play video: {{ include.title | escape }}">
+    <img src="https://i.ytimg.com/vi/{{ include.youtube }}/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+    <span class="video-play" aria-hidden="true"></span>
+  </a>
+  {%- else %}
+  <iframe src="{{ include.embed }}" title="{{ include.title | escape }}" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+  {%- endif %}
+</div>

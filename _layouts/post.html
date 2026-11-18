@@ -1,3 +1,92 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Page for one paper. Everything comes from the post's front matter and body:
+  the first paragraph of the body is the one-line summary shown on the research page;
+  anything after a blank line (e.g. the full abstract) appears only here.
+  Optional front matter: award, bibtex (to override the generated entry).
+{%- endcomment -%}
+{%- assign clean_title = page.title | strip_newlines | strip -%}
+{%- assign plain_title = clean_title | strip_html -%}
+{%- assign vid = "" -%}
+{%- if page.video contains "youtu" -%}
+  {%- assign vid = page.video | split: "youtu.be/" | last | split: "v=" | last | split: "&" | first | split: "?" | first -%}
+{%- endif -%}
+
+<main class="paper">
+  <div class="paper-hero">
+    {% assign tn_path = '/tn' | append: page.image %}<img src="{% include web-image-url.html path=tn_path %}" alt="Figure from {{ plain_title | escape }}">
+  </div>
+
+  <p class="venue">{{ page.venue_short | default: page.venue }}</p>
+  {%- if page.award %}
+  <p class="award">🏆 {{ page.award }}</p>
+  {%- endif %}
+  <h1>{{ clean_title }}</h1>
+  <p class="author-list">{{ page.authors }}</p>
+  <p class="authors">{{ page.venue }}{% if page.year %}, {{ page.year }}{% endif %}</p>
+
+  <div class="button-row">
+    {% include pub-links.html post=page style="buttons" video_anchor=vid %}<a class="btn" href="#bibtex">BibTeX</a>
+  </div>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  {%- if vid != "" %}
+  <h2 id="video">Video</h2>
+  {% include video-embed.html youtube=vid title=plain_title %}
+  {%- endif %}
+
+  <h2 id="bibtex">BibTeX</h2>
+  {%- if page.bibtex -%}
+    {%- assign bib = page.bibtex | strip -%}
+  {%- else -%}
+    {%- assign bib_authors = page.authors | replace: ", and ", " and " | replace: ", ", " and " | replace: " et al.", " and others" -%}
+    {%- if page.venue contains "Under review" or page.venue contains "arXiv" -%}
+      {%- assign bib_type = "misc" -%}{%- assign bib_field = "note" -%}
+    {%- elsif page.venue contains "Transactions" or page.venue contains "Journal" or page.venue contains "Letters" -%}
+      {%- assign bib_type = "article" -%}{%- assign bib_field = "journal" -%}
+    {%- else -%}
+      {%- assign bib_type = "inproceedings" -%}{%- assign bib_field = "booktitle" -%}
+    {%- endif -%}
+    {%- capture bib -%}
+@{{ bib_type }}{ {{- page.slug -}},
+  title  = { {{- plain_title -}} },
+  author = { {{- bib_authors -}} },
+  {{ bib_field }} = { {{- page.venue -}} },
+  year   = { {{- page.year -}} }
+}
+    {%- endcapture -%}
+  {%- endif %}
+  <div class="bibtex">
+    <pre><code id="bib">{{ bib | escape }}</code></pre>
+    <button class="btn" type="button" id="copy-bib">Copy BibTeX</button>
+  </div>
+
+  {%- assign members = site.data.people.pi | concat: site.data.people.students -%}
+  {%- capture member_cards -%}
+    {%- for m in members -%}{%- if page.authors contains m.name -%}{% include person-card.html person=m %}{%- endif -%}{%- endfor -%}
+  {%- endcapture -%}
+  {%- if member_cards != "" %}
+  <h2>Lab members</h2>
+  <div class="people-grid">
+    {{ member_cards }}
+  </div>
+  {%- endif %}
+
+  <p class="back"><a href="{{ '/research' | relative_url }}">All publications</a></p>
+</main>
+
+<script>
+  document.getElementById("copy-bib").addEventListener("click", function () {
+    var btn = this;
+    if (!navigator.clipboard) { return; }
+    navigator.clipboard.writeText(document.getElementById("bib").textContent).then(function () {
+      btn.textContent = "Copied";
+      setTimeout(function () { btn.textContent = "Copy BibTeX"; }, 1500);
+    });
+  });
+</script>

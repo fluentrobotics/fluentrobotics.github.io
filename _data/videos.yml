@@ -1,0 +1,88 @@
+# Videos shown on /videos, in order. Use "youtube" for a YouTube video ID, or "embed" for any other embeddable URL.
+# Each video links to its paper: "url" can be a paper page (/pubs/...) or a PDF/external link.
+
+- title: "Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation"
+  venue: ICRA 2026
+  url: /pubs/stratton2026bi3
+  youtube: z55M_um_7fQ
+- title: "ReloPush-BOSS: Optimization-guided Nonmonotone Rearrangement Planning for a Car-like Robot Pusher"
+  venue: RA-L 2026
+  url: /pubs/ahn2026relopushboss
+  youtube: fI3A--OZy_4
+- title: "How Human Motion Prediction Quality Shapes Social Robot Navigation Performance in Constrained Spaces"
+  venue: HRI 2026
+  url: /pubs/stratton2026hmp2nav
+  youtube: QGd5vQMhXqY
+- title: "Rethinking Legibility in Social Robot Navigation: Impact of Intent Representation and Human Attention"
+  venue: LBR, HRI 2026
+  url: /pdfs/goyal2026rethinking.pdf
+  youtube: P5O5BwfcUCo
+- title: "From A to Ω: Pixel Art with a Mobile Robot"
+  venue: Arts in Robotics, ICRA 2025
+  url: /pubs/ahn2025pixelart
+  youtube: WNWegHkDJ1Q
+- title: "Implicit Communication in Human-Robot Collaborative Transport"
+  venue: HRI 2025
+  url: /pubs/yang2025implicit
+  youtube: 0NTDrobSifg
+- title: "ReloPush: Multi-object Rearrangement in Confined Spaces with a Nonholonomic Mobile Robot Pusher"
+  venue: ICRA 2025
+  url: /pubs/ahn2025relopush
+  youtube: _EwHuF8XAjk
+- title: "Characterizing the Complexity of Social Robot Navigation Scenarios"
+  venue: RA-L/ICRA 2025
+  url: /pubs/stratton2025complexity
+  youtube: -ir12VoSCkY
+- title: "HOUND: A Low-Cost Platform for aggressive off-road autonomy research"
+  venue: RSS 2024
+  url: /pubs/talia2024hound
+  embed: https://drive.google.com/file/d/1ARGlUoeHWp4Y9YxNnNTBuCj0uZUOtzyo/preview
+- title: "From crowd motion prediction to robot navigation in crowds"
+  venue: IROS 2023
+  url: /pubs/poddar2023pred2nav
+  youtube: mzFiXg8KsZ0
+- title: "Multirobot push-based rearrangement planning"
+  venue: IROS 2023
+  url: /pubs/taliathareja2023pushr
+  youtube: nyUn9mHoR8Y
+- title: "Crowd navigation via topological invariance"
+  venue: RA-L/ICRA 2023
+  url: /pubs/mavrogiannis2023winding
+  youtube: o1o_Rd7MEcg
+- title: "Analyzing Multiagent Interactions in Traffic Scenes via Topological Braids"
+  venue: ICRA 2022
+  url: /pubs/mavrogiannis2022analyzing
+  youtube: Q7xZPFj52lQ
+- title: "Crowd navigation study at Cornell (N=105)"
+  venue: T-HRI 2022
+  url: /pubs/mavrogiannis2022socialmomentum-thri
+  more: [{ label: "HRI 2019", url: /pdfs/mavrogiannis2019effects.pdf }]
+  youtube: 8aO4P6_OzW4
+- title: "Kuri navigating the UW hallways"
+  venue: HRI 2022
+  url: /pubs/nanavatiwalker2022wandering
+  youtube: 1KeaFIwp8oQ
+- title: "In-hand manipulation via proximity sensing"
+  venue: IROS 2022
+  url: /pubs/lancaster2022optical
+  youtube: 9iaLuM-N2VE
+- title: "Electrostatic braking for dexterous manipulation"
+  venue: IJRR 2024
+  url: /pubs/lancaster2024brakes
+  youtube: XQ68OvDI3Hw
+- title: "Telemanipulation with Chopsticks"
+  venue: IROS 2020
+  url: /pubs/ke2020chopsticks
+  youtube: 32Q2xVl5j_I
+- title: "MuSHR: The UW open-source robot racecar"
+  venue: tech report 2019
+  url: /pubs/srinivasa2019mushr
+  youtube: N_ntS3ywYuM
+- title: "OpenBionics prosthetic hands"
+  venue: IROS 2015
+  url: /pubs/kontoudis2015prosthetic
+  youtube: LoG_JTOIMO4
+- title: "OpenBionics robotic hands"
+  venue: IROS 2014
+  url: /pubs/zisimatos2014robothands
+  youtube: yEANsfaE1gs

@@ -1,0 +1,21 @@
+{%- comment -%}
+  One lab member. Usage: {% include person-card.html person=person %}
+  Add featured=true for the large side-by-side card (used for the PI), which also shows the affiliation.
+{%- endcomment -%}
+{%- assign m = include.person -%}
+{%- if m.page %}{% assign name_url = m.page | relative_url %}{% else %}{% assign name_url = m.website %}{% endif -%}
+<article class="person{% if include.featured %} person-featured{% endif %}">
+  <img src="{% include web-image-url.html path=m.photo %}" alt="{{ m.name | escape }}" loading="lazy">
+  <div class="person-text">
+    <h3 class="person-name">{% if name_url %}<a href="{{ name_url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</h3>
+    <p class="authors">{{ m.role }}{% if include.featured and m.affiliation %}<br>{{ m.affiliation }}{% endif %}</p>
+    <p class="links">
+      {%- if m.page %}<a href="{{ m.page | relative_url }}">Profile</a>{% endif -%}
+      {%- if m.website %}<a href="{{ m.website }}">Website</a>{% endif -%}
+      {%- if m.github %}<a href="{{ m.github }}">GitHub</a>{% endif -%}
+    </p>
+    {%- if m.email %}
+    <p class="email">{{ m.email }}</p>
+    {%- endif %}
+  </div>
+</article>

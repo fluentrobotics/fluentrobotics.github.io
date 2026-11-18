@@ -4,12 +4,13 @@ title:  "Intent Representation and Human Distraction Modulate the Effects of Leg
 date:   2025-12-22 01:51:53 +00:00
 image: /images/goyal2026rethinking.jpg
 categories: research
+year: 2026
+venue_short: "T-HRI '26"
 venue: "ACM Transactions on Human-Robot Interaction"
 authors: "Pranav Goyal, Andrew Stratton, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
 note: 
-year: 2026
 # project: https://sites.google.com/view/prl-hound
 code: 
 video:

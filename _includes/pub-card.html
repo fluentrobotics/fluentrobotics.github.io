@@ -1,0 +1,16 @@
+{%- comment -%} One publication card. Usage: {% include pub-card.html post=post %} {%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign href = p.url | relative_url -%}
+<article class="pub">
+  <a class="pub-thumb" href="{{ href }}" tabindex="-1" aria-hidden="true">{% assign tn_path = '/tn' | append: p.image %}<img src="{% include web-image-url.html path=tn_path %}" alt="" loading="lazy"></a>
+  <p class="venue">{{ p.venue_short | default: p.venue }}</p>
+  {%- if p.award %}
+  <p class="award">🏆 {{ p.award }}</p>
+  {%- endif %}
+  <h3 class="pub-title"><a href="{{ href }}">{{ p.title | strip_newlines | strip }}</a></h3>
+  <p class="authors">{{ p.authors }}</p>
+  {%- unless include.short %}
+  <div class="tldr">{{ p.excerpt }}</div>
+  {%- endunless %}
+  <p class="links">{% include pub-links.html post=p %}</p>
+</article>

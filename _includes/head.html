@@ -1,0 +1,49 @@
+{%- comment -%} Shared <head> for every page that uses _layouts/default.html {%- endcomment -%}
+{%- if page.title -%}
+  {%- assign page_title = page.title | strip_html | strip_newlines | strip | append: " | Fluent Robotics Lab" -%}
+{%- else -%}
+  {%- assign page_title = "Fluent Robotics Lab | University of Michigan" -%}
+{%- endif -%}
+{%- if page.description -%}
+  {%- assign page_desc = page.description -%}
+{%- elsif page.collection == "posts" and page.excerpt -%}
+  {%- assign page_desc = page.excerpt | strip_html | strip_newlines | strip | truncate: 200 -%}
+{%- endif -%}
+{%- if page_desc == nil or page_desc == "" -%}{%- assign page_desc = site.lab_description -%}{%- endif -%}
+{%- if page.image -%}
+  {%- assign share_image = "/tn" | append: page.image | absolute_url -%}
+{%- else -%}
+  {%- assign share_image = "/tn/images/lab-photo-feb2025.jpg" | absolute_url -%}
+{%- endif -%}
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc | escape }}">
+  <meta name="keywords" content="robotics, human-robot interaction, social navigation, rearrangement, multiagent systems, artificial intelligence">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Link previews (LinkedIn, X, Bluesky, Slack, ...) -->
+  <meta property="og:site_name" content="Fluent Robotics Lab">
+  <meta property="og:type" content="{% if page.collection == 'posts' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ page_desc | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ share_image }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+{%- if page.collection == "posts" %}
+{% include scholar-meta.html %}
+{%- endif %}
+
+  <link rel="stylesheet" href="{{ '/fluent.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/images/favicon.png' | relative_url }}">

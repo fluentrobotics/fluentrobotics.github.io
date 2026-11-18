@@ -4,7 +4,8 @@ title:  "Sequential improvement of grasp based on sensitivity analysis"
 date:   2014-10-01 21:21:53 +00:00
 image: /images/mavrogiannis2013sequential.png
 categories: research
-newyear: 2013
+year: 2013
+venue_short: "ICRA '13"
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Christoforos Mavrogiannis, Charalampos Bechlioulis, Kostas Kyriakopoulos"
 author: "Christoforos Mavrogiannis"

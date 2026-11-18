@@ -4,6 +4,8 @@ title:  "Modeling human helpfulness with individual and contextual factors for r
 date:   2021-04-10 21:21:53 +00:00
 image: /images/nanavati2021helpfulness.jpg
 categories: research
+year: 2021
+venue_short: "RSS '21"
 venue: "Proceedings of Robotics: Science and Systems (RSS)"
 authors: "Amal Nanavati, Christoforos Mavrogiannis, Kevin Weatherwax, Leila Takayama, Maya Cakmak, Siddhartha Srinivasa"
 author: "Christoforos Mavrogiannis"

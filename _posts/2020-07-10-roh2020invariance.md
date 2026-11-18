@@ -4,7 +4,8 @@ title:  "Multimodal trajectory prediction via topological invariance for navigat
 date:   2020-07-10 21:21:53 +00:00
 image: /images/roh2020invariance.jpg
 categories: research
-newyear: 2020
+year: 2020
+venue_short: "CoRL '20"
 venue: "Conference on Robot Learning (CoRL)"
 authors: "Junha Roh, Christoforos Mavrogiannis, Rishabh Madan, Dieter Fox, Siddhartha Srinivasa"
 author: "Christoforos Mavrogiannis"

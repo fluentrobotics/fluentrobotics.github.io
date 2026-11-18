@@ -4,7 +4,8 @@ title:  "Group-based motion prediction for navigation in crowded environments"
 date:   2021-11-26 21:21:53 +00:00
 image: /images/wang2021group.png
 categories: research
-newyear: 2021
+year: 2021
+venue_short: "CoRL '21"
 venue: "Proceedings of the Conference on Robot Learning (CoRL)"
 authors: "Allan Wang, Christoforos Mavrogiannis, and Aaron Steinfeld"
 author: "Christoforos Mavrogiannis"

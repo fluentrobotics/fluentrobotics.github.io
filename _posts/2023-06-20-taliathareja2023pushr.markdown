@@ -4,6 +4,8 @@ title:  "PuSHR: A multirobot system for nonprehensile rearrangement"
 date:   2023-06-20 12:21:59 +00:00
 image: /images/talia2023pushr.png
 categories: research
+year: 2023
+venue_short: "IROS '23"
 author: "Christoforos Mavrogiannis"
 authors: "Sidharth Talia, Arnav Thareja, Christoforos Mavrogiannis, Matt Schmittle, Siddhartha Srinivasa"
 venue: "International Conference on Intelligent Robots and Systems"

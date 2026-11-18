@@ -4,6 +4,8 @@ title:  "Influencing behavioral attributions to robot motion during task executi
 date:   2021-06-10 21:21:53 +00:00
 image: /images/walker2021attributions.jpg
 categories: research
+year: 2021
+venue_short: "CoRL '21"
 venue: "Proceedings of the Conference on Robot Learning (CoRL)"
 authors: "Nick Walker, Christoforos Mavrogiannis, Siddhartha Srinivasa, Maya Cakmak"
 author: "Christoforos Mavrogiannis"

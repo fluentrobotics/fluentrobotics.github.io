@@ -4,12 +4,13 @@ title:  "ACME: A Multi-Cultural, Multi-Embodiment Social-Navigation Dataset"
 date:   2026-01-01 01:51:53 +00:00
 image: /images/marpally2026acme.jpg
 categories: research
+year: 2026
+venue_short: "IJRR (under review)"
 venue: "Under review at: The International Journal of Robotics Research"
 authors: "Marpally et al."
 author: "Christoforos Mavrogiannis"
 note:
 # note: acceptance rate 38%
-newyear: 2026
 project: 
 code: 
 video: 

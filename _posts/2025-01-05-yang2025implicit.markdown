@@ -4,11 +4,12 @@ title:  "Implicit Communication in Human-Robot Collaborative Transport"
 date:   2025-01-05 12:01:53 +00:00
 image: /images/yang2025implicit.jpg
 categories: research
+year: 2025
+venue_short: "HRI '25"
 venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
 authors: "Elvin Yang and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note: acceptance rate 25%
-newyear: 2025
 # project: https://sites.google.com/view/prl-hound
 code: https://github.com/fluentrobotics/icmpc_collab_transport
 video: https://youtu.be/0NTDrobSifg

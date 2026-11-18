@@ -5,7 +5,8 @@ Open-source, anthropomorphic, underactuated robot hands with a selectively locka
 date:   2015-10-02 21:21:53 +00:00
 image: /images/kontoudis2015prosthetic.png
 categories: research
-newyear: 2015
+year: 2015
+venue_short: "IROS '15"
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 authors: "George Kontoudis, Minas Liarokapis, Agisilaos Zisimatos, Christoforos Mavrogiannis, Kostas Kyriakopoulos"
 author: "Christoforos Mavrogiannis"

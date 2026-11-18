@@ -4,11 +4,13 @@ title:  "Characterizing the Complexity of Social Robot Navigation Scenarios"
 date:   2025-01-04 12:01:53 +00:00
 image: /images/stratton2025complexity.png
 categories: research
+year: 2025
+venue_short: "RA-L '25"
+award: "Best Paper Award, RSS 2024 Social Navigation Workshop"
 venue: "IEEE Robotics and Automation Letters"
 authors: "Andrew Stratton, Kris Hauser, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
-year: 2025
 # project: https://sites.google.com/view/prl-hound
 code: https://github.com/fluentrobotics/ComplexityNav
 video: https://www.youtube.com/watch?v=-ir12VoSCkY

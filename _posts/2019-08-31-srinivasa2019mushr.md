@@ -4,6 +4,8 @@ title:  "MuSHR: A low-cost, open-source robotic racecar for education and resear
 date:   2019-08-31 21:21:53 +00:00
 image: /images/srinivasa2019mushr.jpeg
 categories: research
+year: 2019
+venue_short: "arXiv '19"
 venue: "arXiv tech report"
 authors: "Siddhartha S Srinivasa, Patrick Lancaster, Johan Michalove, Matt Schmittle, Colin Summers, Matthew Rockett, Joshua R Smith, Sanjiban Choudhury, Christoforos Mavrogiannis, Fereshteh Sadeghi"
 author: "Christoforos Mavrogiannis"

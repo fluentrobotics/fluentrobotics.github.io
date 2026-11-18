@@ -4,6 +4,8 @@ title:  "Open-Source, Affordable, Modular, Light-Weight, Underactuated Robot Han
 date:   2014-10-01 21:21:53 +00:00
 image: /images/zisimatos2014robothands.png
 categories: research
+year: 2014
+venue_short: "IROS '14"
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 authors: "Agisilaos Zisimatos, Minas Liarokapis, Christoforos Mavrogiannis, Kostas Kyriakopoulos"
 author: "Christoforos Mavrogiannis"

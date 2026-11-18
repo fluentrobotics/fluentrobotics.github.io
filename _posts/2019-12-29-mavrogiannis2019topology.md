@@ -4,10 +4,11 @@ title:  "Multi-agent path topology in support of socially competent navigation p
 date:   2019-12-29 21:21:53 +00:00
 image: /images/mavrogiannis2019braids.png
 categories: research
+year: 2019
+venue_short: "IJRR '19 (WAFR 2016 special issue)"
 venue: "The International Journal of Robotics Research, WAFR 2016 special issue"
 authors: "Christoforos Mavrogiannis, Ross Knepper"
 author: "Christoforos Mavrogiannis"
-newyear: 2019
 pdf: pdfs/mavrogiannis2019topology.pdf
 wafr16-version: pdfs/mavrogiannis2016braids.pdf
 video: https://www.youtube.com/watch?v=32Q2xVl5j_I

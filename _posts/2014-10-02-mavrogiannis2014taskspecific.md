@@ -4,7 +4,8 @@ title:  "Task-specific grasp selection for underactuated hands"
 date:   2014-10-01 21:21:53 +00:00
 image: /images/mavrogiannis2014taskspecific.png
 categories: research
-newyear: 2014
+year: 2014
+venue_short: "ICRA '14"
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Christoforos Mavrogiannis, Charalampos Bechlioulis, Minas Liarokapis, Kostas Kyriakopoulos"
 author: "Christoforos Mavrogiannis"

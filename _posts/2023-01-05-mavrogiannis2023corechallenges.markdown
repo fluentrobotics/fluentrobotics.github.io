@@ -4,6 +4,8 @@ title:  "Core challenges of social robot navigation: A survey"
 date:   2023-01-05 22:21:59 +00:00
 image: /images/mavrogiannis2023corechallenges.png
 categories: research
+year: 2023
+venue_short: "T-HRI '23"
 author: "Christoforos Mavrogiannis"
 authors: "Christoforos Mavrogiannis, Francesca Baldini, Allan Wang, Dapeng Zhao, Pete Trautman, Aaron Steinfeld, and Jean Oh"
 venue: "ACM Transactions on Human-Robot Interaction"

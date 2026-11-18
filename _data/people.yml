@@ -1,0 +1,72 @@
+# Lab members, shown on /people and on the pages of papers they co-authored.
+# The "name" must match how it's written in a post's "authors" field.
+# Leave a field out (or empty) to hide that link.
+# "page" links the name to a profile page; copy people/christoforos-mavrogiannis.md to make one.
+
+pi:
+  - name: Christoforos Mavrogiannis
+    page: /people/christoforos-mavrogiannis   # profile page (people/christoforos-mavrogiannis.md)
+    photo: /tn/images/christoforos.jpg
+    role: Assistant Professor
+    affiliation: Department of Robotics, University of Michigan
+    website: http://www.chrismavrogiannis.com
+    github: https://github.com/cmavrogiannis
+    email: cmavro AT umich dot edu
+
+students:
+  - name: Elvin Yang
+    photo: /tn/images/elvin-square.jpg
+    role: Ph.D. student
+    affiliation: Department of Robotics, University of Michigan
+    website: https://elvout.github.io
+    github: https://github.com/elvout
+    email: eyy AT umich dot edu
+  - name: Jeeho Ahn
+    photo: /tn/images/jeeho.jpg
+    role: Ph.D. student
+    affiliation: Department of Robotics, University of Michigan
+    website: http://jeehoahn.xyz/
+    github: https://github.com/jeeho-ahn
+    email: jeeho AT umich dot edu
+  - name: Andrew Stratton
+    photo: /tn/images/andrew.jpg
+    role: Ph.D. student
+    affiliation: Department of Robotics, University of Michigan
+    website: https://strattonandrew.github.io
+    github: https://github.com/strattonandrew
+    email: arstr AT umich dot edu
+  - name: Shambhavi Singh
+    photo: /tn/images/shambhavi.jpg
+    role: Ph.D. student
+    affiliation: Department of Robotics, University of Michigan
+    website: http://28shambhavi.github.io/
+    github: https://github.com/28shambhavi
+    email: shasingh AT umich dot edu
+  - name: Pranav Goyal
+    photo: /tn/images/pranav.png
+    role: Ph.D. student
+    affiliation: Department of Robotics, University of Michigan
+    website: https://pranavgo.github.io
+    github: https://github.com/pranavgo
+    email: prgoyal AT umich dot edu
+  - name: Jiamu Liu
+    photo: /tn/images/danny.jpg
+    role: M.S. student
+    affiliation: Robotics, University of Michigan
+    github: https://github.com/danielliujm
+    email: dliujm AT umich dot edu
+
+# Plain text, one line per person, newest first.
+alumni:
+  - "Jeffrey Chen, MS '26 → Torc Robotics"
+  - "Tisha Jain, BS '26 → PhD Cornell"
+  - "Anandi Arora"
+  - "Julian Skifstad, MS '25 → PhD Georgia Tech"
+  - "Ariana Verges Alicea, MS '25"
+  - "Zakary Amekran"
+  - "Sikai Li, BS '25 → PhD University of North Carolina Chapel Hill"
+  - "Mo Xu, MS '24 → PhD University of Wisconsin-Madison"
+  - "Yanxi Lin, MS '24 → PhD University of Utah"
+  - "Daniel Xu, MS '24"
+  - "Sukruthi Chidananda, MS '24 → NIOSH"
+  - "Sriram Priyadharshan, MS '24 → Bonsai Robotics"

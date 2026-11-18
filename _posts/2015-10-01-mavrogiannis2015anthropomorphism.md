@@ -4,6 +4,8 @@ title:  "Quantifying anthropomorphism of robot arms"
 date:   2015-10-01 21:21:53 +00:00
 image: /images/mavrogiannis2015anthropomorphism.png
 categories: research
+year: 2015
+venue_short: "IROS '15"
 venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 authors: "Christoforos Mavrogiannis, Minas Liarokapis, Kostas Kyriakopoulos"
 author: "Christoforos Mavrogiannis"

@@ -1,0 +1,19 @@
+{%- comment -%}
+  Links for one paper. Usage: {% include pub-links.html post=post %}
+  Add class="button-row" styling by passing style="buttons".
+{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- if include.style == "buttons" %}{% assign cls = "btn" %}{% else %}{% assign cls = "" %}{% endif -%}
+{%- if p.pdf %}<a class="{{ cls }}" href="{{ p.pdf | relative_url }}">PDF</a>{% endif -%}
+{%- if p.arxiv %}<a class="{{ cls }}" href="{{ p.arxiv | relative_url }}">arXiv</a>{% endif -%}
+{%- if p.video %}<a class="{{ cls }}" href="{% if include.video_anchor and include.video_anchor != "" %}#video{% else %}{{ p.video | relative_url }}{% endif %}">Video</a>{% endif -%}
+{%- if p.code %}<a class="{{ cls }}" href="{{ p.code | relative_url }}">Code</a>{% endif -%}
+{%- if p.project %}<a class="{{ cls }}" href="{{ p.project | relative_url }}">Project</a>{% endif -%}
+{%- if p.website %}<a class="{{ cls }}" href="{{ p.website | relative_url }}">Website</a>{% endif -%}
+{%- if p.slides %}<a class="{{ cls }}" href="{{ p.slides | relative_url }}">Slides</a>{% endif -%}
+{%- if p.youtube %}<a class="{{ cls }}" href="{{ p.youtube | relative_url }}">YouTube</a>{% endif -%}
+{%- if p.wafr16-version %}<a class="{{ cls }}" href="{{ p.wafr16-version | relative_url }}">WAFR 2016 version</a>{% endif -%}
+{%- if p.wafr18-version %}<a class="{{ cls }}" href="{{ p.wafr18-version | relative_url }}">WAFR 2018 version</a>{% endif -%}
+{%- if p.wafr22-version %}<a class="{{ cls }}" href="{{ p.wafr22-version | relative_url }}">WAFR 2022 version</a>{% endif -%}
+{%- if p.hri19-version %}<a class="{{ cls }}" href="{{ p.hri19-version | relative_url }}">HRI 2019 paper</a>{% endif -%}
+{%- if p.hri18-version %}<a class="{{ cls }}" href="{{ p.hri18-version | relative_url }}">HRI 2018 paper</a>{% endif -%}

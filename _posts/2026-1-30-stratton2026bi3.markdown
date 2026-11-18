@@ -4,12 +4,13 @@ title:  "Bi<sup>3</sup>: A Biplatform, Bicultural, Biperson Dataset for Social R
 date:   2025-12-23 01:51:53 +00:00
 image: /images/stratton2026bi3dataset.jpg
 categories: research
+year: 2026
+venue_short: "ICRA '26"
 venue: "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
 note: acceptance rate 38%
-year: 2026
 project: https://fluentrobotics.com/bi3dataset/
 code: 
 video: https://youtu.be/z55M_um_7fQ

@@ -4,6 +4,8 @@ title:  "Social Momentum: Design and evaluation of a framework for socially comp
 date:   2022-02-26 21:21:53 +00:00
 image: /images/mavrogiannis2022socialmomentum-thri.jpg
 categories: research
+year: 2022
+venue_short: "T-HRI '22"
 venue: "ACM Transactions on Human-Robot Interaction"
 authors: "Christoforos Mavrogiannis, Patrícia Alves-Oliveira, Wil Thomason, Ross Knepper"
 author: "Christoforos Mavrogiannis"

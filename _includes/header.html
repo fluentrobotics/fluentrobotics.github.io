@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="the fluent robotics lab, home"><span class="w-grey">the</span><span class="w-maize">fluent</span><span class="w-blue">robotics</span><span class="w-grey">lab</span></a>
+    <nav class="site-nav" aria-label="Main">
+      {%- assign nav_items = "people,robots,research,videos" | split: "," %}
+      {%- for item in nav_items %}
+      {%- if item == "people" %}{% assign item_url = "/people/" %}{% else %}{% assign item_url = "/" | append: item %}{% endif %}
+      <a href="{{ item_url | relative_url }}"{% if page.nav == item %} aria-current="page"{% endif %}>{{ item }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>

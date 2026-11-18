@@ -4,6 +4,8 @@ title:  "Hamiltonian coordination primitives for decentralized multiagent naviga
 date:   2021-03-10 21:21:53 +00:00
 image: /images/mavrogiannis2021hamiltonian.png
 categories: research
+year: 2021
+venue_short: "IJRR '21 (WAFR 2018 special issue)"
 venue: "The International Journal of Robotics Research, WAFR 2018 special issue"
 authors: "Christoforos Mavrogiannis, Ross Knepper"
 author: "Christoforos Mavrogiannis"

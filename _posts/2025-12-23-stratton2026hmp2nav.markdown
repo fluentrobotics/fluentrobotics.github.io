@@ -4,12 +4,13 @@ title:  " How Human Motion Prediction Quality Shapes Social Robot Navigation Per
 date:   2025-12-23 01:51:53 +00:00
 image: /images/stratton2026hmp2nav.jpg
 categories: research
+year: 2026
+venue_short: "HRI '26"
 venue: "Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
 authors: "Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, and Christoforos Mavrogiannis"
 author: "Christoforos Mavrogiannis"
 note:
 note: acceptance rate 23%
-year: 2026
 # project: https://sites.google.com/view/prl-hound
 code: 
 video: https://youtu.be/QGd5vQMhXqY

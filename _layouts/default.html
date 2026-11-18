@@ -1,143 +1,25 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-  <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DCC2X7SZBT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-DCC2X7SZBT');
-    </script>
-  <title>{{ site.name }}</title>
-
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="{{ site.baseurl }}/style.css" >
-      <title>fluent robotics lab</title>      
-    <meta name="description" content="Fluent Robotics Lab | University of Michigan">
-    <meta name="keywords" content="robotics, human-robot interaction, multiagent systems, artificial intelligence">
-      <link rel="shortcut icon" type="image/png" href="images/favicon.png">    
-    <!-- </style> -->
-  </head>
-
-  
-  <body>
-    <a href="index"><h1 id="name"> <span id="the">the</span><span id="fluent">fluent</span><span id="robotics">robotics</span><span id="the">lab</span> </h1></a>
-    <div id="buttons">
-        <a href="people" class="link"> people </a> 
-      <a href="robots" class="link"> robots </a>     
-        <a href="research" class="link" style = "color : #FFCB05"> research </a>  
-        <a href="videos" class="link"> videos </a>      
-    </div>
-
-  <table  style="padding-left: 50px;  margin: 10px 10px 10px 10px;">
-    <tr>
-      <td>
-        <p>See below for a list of selected publications (full list on <a href="https://scholar.google.com/citations?user=dTV6Zj4AAAAJ">Google scholar</a>).</p>
-        <table>
-          {% for post in site.posts %}
-            {% for cat in post.categories %}
-              {% if cat == 'research' %}
-                <tr>
-                  <td>
-                    {% if post.newyear %}
-                      <h2><b>{{post.newyear}}</b></h2>
-                    {% endif %}
-                  </td>
-                </tr>
-                            <!-- <p><img class = "images" src="/tn/images/social-nav.png" alt="attributions" style = "align : top; float : left; margin-right:20px; margin-bottom:20px; border-radius: 0%"></p>           -->
-
-                <tr>    
-                  <!-- <td style="padding-left: 0px;padding-top: 0px;vertical-align:left"> -->
-                  <td style="padding-left: 0px;padding-top: 0px;max-width:200px;vertical-align:left; text-align: left;">
-                    <p><img class = "images" src="/tn{{post.image}}" alt="project image" style = "align : top; float : left; align : top; float : left; margin-right:20px; margin-bottom:20px; border-radius: 0%" /></p>
-                  </td>
-                  <td style="padding-left: 10px;padding-top: 0px;max-width:500px;vertical-align:left; text-align: left;">
-                    <h3><b>{{post.title}}</b></h3>
-                    {{post.authors}}
-                    <br>
-                    <em>{{post.venue}}</em>
-                    <!-- , {{ post.date | date: "%Y" }} -->
-                    <br>
-                    {% if post.arxiv %}
-                    <a href="{{post.arxiv}}">arxiv</a> /
-                    {% endif %}
-                    {% if post.video %}
-                    <a href="{{post.video}}">video</a> /
-                    {% endif %}
-                    {% if post.code %}
-                    <a href="{{post.code}}">code</a> /
-                    {% endif %}
-                    {% if post.pdf %}
-                    <a href="{{post.pdf}}">pdf</a> /
-                    {% endif %}
-                    {% if post.slides %}
-                    <a href="{{post.slides}}">slides</a> /
-                    {% endif %}
-                    {% if post.website %}
-                    <a href="{{post.website}}">website</a> /
-                    {% endif %}
-<!--                     {% if post.note %}
-                    {{ post.note }}
-                    {% endif %} -->
-                    {% if post.project %}
-                    <a href="{{post.project}}">project</a> /
-                    {% endif %}
-                    {% if post.youtube %}
-                    <a href="{{post.youtube}}">youtube</a> /
-                    {% endif %}
-                    {% if post.wafr16-version %}
-                    <a href="{{post.wafr16-version}}">WAFR 2016 version</a> /
-                    {% endif %}
-                    {% if post.wafr18-version %}
-                    <a href="{{post.wafr18-version}}">WAFR 2018 version</a> /
-                    {% endif %}
-                    {% if post.wafr22-version %}
-                    <a href="{{post.wafr22-version}}">WAFR 2022 version</a> /
-                    {% endif %}                   
-                    {% if post.hri19-version %}
-                    <a href="{{post.hri19-version}}">HRI 2019 paper</a> /
-                    {% endif %}
-                    {% if post.hri18-version %}
-                    <a href="{{post.hri18-version}}">HRI 2018 paper</a> /
-                    {% endif %}
-                    <p></p>
-                    {{ post.excerpt }}
-                  </td>
-                </tr>
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <!-- <br> -->
-        <!-- <br> -->
-      </td>
-    </tr>
-  </table>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+<script>
+  // Click-to-play videos (see _includes/video-embed.html): swap the thumbnail for the YouTube player.
+  document.addEventListener("click", function (e) {
+    var link = e.target.closest && e.target.closest(".video-facade");
+    if (!link) { return; }
+    e.preventDefault();
+    var frame = document.createElement("iframe");
+    frame.src = "https://www.youtube-nocookie.com/embed/" + link.getAttribute("data-youtube") + "?autoplay=1&rel=0";
+    frame.title = link.getAttribute("data-title");
+    frame.allow = "autoplay; encrypted-media; picture-in-picture";
+    frame.allowFullscreen = true;
+    link.parentNode.replaceChild(frame, link);
+  });
+</script>
 </body>
-
-  <div id="text">
-    <hr style="width:100%;margin-left:0">
-    
-  </div> 
-<div id="academicbuttons">
-      <a href="https://robotics.umich.edu/"><img src="images/MRobotics_informal_outlines_digital.svg" height="32" class="footer"/></a>
-      <a href="https://github.com/fluentrobotics"><img src="images/github_icon.png" alt="Github" height="32"></a>
-      <a href="http://www.twitter.com/fluentrobotics"> <img src="images/twitter_icon.png" alt="Twitter" height="32;"></a>
-        <a href="http://www.youtube.com/@FluentRoboticsLab"><img src="images/youtube_icon.png" alt="Youtube" height="32"></a>
-      <a href="https://www.linkedin.com/company/fluentrobotics"><img src="images/linkedin_icon.png" alt="Linkedin" height="32" class="footer"/></a>
-      <a href="https://maps.studentlife.umich.edu/building/ford-robotics-building"><img src="images/pin-icon.png" height="32" class="footer"/></a>
-    </div>          
-
-       
-  <div id="text">
-          &#169; 2023-&infin; by the Fluent Robotics Lab; source code adapted from <a href="https://github.com/leonidk/leonidk.github.io">here</a>.<br>
-  </div>   
-
 </html>
-

@@ -4,6 +4,8 @@ title:  "Demonstrating HOUND: A Low-cost Research Platform for High-speed Off-ro
 date:   2024-01-01 12:01:53 +00:00
 image: /images/talia2024hound.png
 categories: research
+year: 2024
+venue_short: "RSS '24"
 venue: "Robotics: Science and Systems (RSS)"
 authors: "Sidharth Talia, Matt Schmittle, Alexander Lambert, Alexander Spitzer, Christoforos Mavrogiannis, Siddhartha S. Srinivasa"
 author: "Christoforos Mavrogiannis"

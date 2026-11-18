@@ -4,6 +4,8 @@ title:  "Winding through: Crowd navigation via topological invariance"
 date:   2023-01-31 22:21:59 +00:00
 image: /images/mavrogiannis2023winding.jpg
 categories: research
+year: 2023
+venue_short: "RA-L '23"
 author: "Christoforos Mavrogiannis"
 authors: "Christoforos Mavrogiannis, Krishna Balasubramanian, Sriyash Poddar, Anush Gandra, Siddhartha Srinivasa"
 venue: "IEEE Robotics and Automation Letters"

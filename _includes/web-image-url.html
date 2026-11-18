@@ -1,0 +1,9 @@
+{%- comment -%}
+  Outputs the URL of the lighter web copy of an image (tn/web/<name>.webp, made by _make_web_images.sh)
+  if it exists, and the original otherwise. Usage: src="{% include web-image-url.html path="/tn/images/x.png" %}"
+{%- endcomment -%}
+{%- assign wi_file = include.path | split: "/" | last -%}
+{%- assign wi_base = wi_file | split: "." | pop | join: "." -%}
+{%- assign wi_candidate = "/tn/web/" | append: wi_base | append: ".webp" -%}
+{%- assign wi_found = site.static_files | where: "path", wi_candidate | first -%}
+{%- if wi_found -%}{{ wi_candidate | relative_url }}{%- else -%}{{ include.path | relative_url }}{%- endif -%}

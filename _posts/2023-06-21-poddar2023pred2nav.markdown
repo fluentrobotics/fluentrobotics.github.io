@@ -4,7 +4,8 @@ title:  "From crowd motion prediction to robot navigation in crowds"
 date:   2023-06-21 17:24:59 +00:00
 image: /images/poddar2023pred2nav.png
 categories: research
-newyear: 2023
+year: 2023
+venue_short: "IROS '23"
 author: "Christoforos Mavrogiannis"
 authors: "Sriyash Poddar, Christoforos Mavrogiannis, Siddhartha Srinivasa"
 venue: "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"

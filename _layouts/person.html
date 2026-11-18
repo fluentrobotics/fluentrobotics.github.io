@@ -1,0 +1,90 @@
+---
+layout: default
+---
+{%- comment -%}
+  Profile page for one lab member. Make a file in people/ (copy people/christoforos-mavrogiannis.md)
+  and edit its front matter; the body (Markdown) holds the bio and research interests.
+  Use "person_name" for the name (Jekyll reserves "name").
+  Recent publications are pulled automatically from _posts where "authors" contains the name.
+{%- endcomment -%}
+{%- assign pname = page.person_name -%}
+{%- assign their_pubs = site.categories.research | where_exp: "p", "p.authors contains pname" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ page.person_name | jsonify }},
+  "jobTitle": {{ page.job_title | jsonify }},
+  "affiliation": { "@type": "CollegeOrUniversity", "name": "University of Michigan" },
+  "worksFor": { "@type": "Organization", "name": "Fluent Robotics Lab", "url": {{ "/" | absolute_url | jsonify }} },
+  "image": {{ page.photo | absolute_url | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "sameAs": [{% for l in page.links %}{% if l.url contains "http" %}{{ l.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
+}
+</script>
+
+<main class="wrap profile">
+  <div class="profile-head">
+    <img class="profile-photo" src="{% include web-image-url.html path=page.photo %}" alt="{{ page.person_name | escape }}">
+    <div class="profile-info">
+      <h1>{{ page.person_name }}</h1>
+      {%- for line in page.titles %}
+      <p class="profile-role">{{ line }}</p>
+      {%- endfor %}
+      <dl class="profile-contact">
+        {%- if page.office %}<dt>Office</dt><dd>{{ page.office }}</dd>{% endif %}
+        {%- if page.email %}<dt>Email</dt><dd>{{ page.email }}</dd>{% endif %}
+      </dl>
+      <div class="button-row">
+        {%- for l in page.links %}<a class="btn" href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-body">
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    {%- if page.teaching %}
+    <h2>Teaching</h2>
+    <ul class="profile-list">
+      {%- for t in page.teaching %}
+      <li><span class="profile-item">{{ t.course }}</span><span class="profile-meta">{{ t.where }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+
+    {%- if page.education %}
+    <h2>Education</h2>
+    <ul class="profile-list">
+      {%- for e in page.education %}
+      <li><span class="profile-item">{{ e.degree }}, {{ e.year }}</span><span class="profile-meta">{{ e.school }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+
+    {%- if page.honors %}
+    <h2>Selected honors</h2>
+    <ul class="profile-list">
+      {%- for h in page.honors %}
+      <li><span class="profile-item">{{ h.award }}</span><span class="profile-meta">{{ h.year }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+
+  {%- if their_pubs.size > 0 %}
+  <section class="section" aria-labelledby="profile-pubs">
+    <div class="section-head">
+      <h2 id="profile-pubs">Recent publications</h2>
+      <a href="{{ '/research' | relative_url }}">All publications</a>
+    </div>
+    <div class="pub-grid">
+      {%- for post in their_pubs limit:3 %}
+      {% include pub-card.html post=post short=true %}
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+</main>

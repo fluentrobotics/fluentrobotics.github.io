@@ -1,0 +1,36 @@
+---
+layout: default
+title: Publications
+nav: research
+description: "Publications from the Fluent Robotics Lab at the University of Michigan: social robot navigation, nonprehensile rearrangement, human-robot collaboration, and multiagent planning."
+---
+{%- comment -%}
+  The list builds itself from _posts. To add a paper, add a file to _posts with
+  categories: research, a year, and a venue_short tag (e.g. "ICRA '27").
+{%- endcomment -%}
+{%- assign pubs = site.categories.research -%}
+{%- assign years = pubs | map: "year" | uniq | sort | reverse -%}
+<main class="wrap">
+  <section class="section pubs-intro" aria-labelledby="pubs-heading">
+    <div class="section-head">
+      <h1 id="pubs-heading">Publications</h1>
+      <a href="https://scholar.google.com/citations?user=dTV6Zj4AAAAJ">Full list on Google Scholar</a>
+    </div>
+    <ul class="year-nav" aria-label="Jump to year">
+      {%- for y in years %}
+      <li><a href="#y{{ y }}">{{ y }}</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% for y in years %}
+  {%- assign group = pubs | where: "year", y %}
+  <section class="section year-block" id="y{{ y }}" aria-labelledby="h{{ y }}">
+    <div class="section-head"><h2 id="h{{ y }}">{{ y }}</h2></div>
+    <div class="pub-grid">
+      {%- for post in group %}
+      {% include pub-card.html post=post %}
+      {%- endfor %}
+    </div>
+  </section>
+{% endfor %}
+</main>

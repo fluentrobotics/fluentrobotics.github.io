@@ -4,7 +4,8 @@ title:  "Abstracting road traffic via topological braids: Applications to traffi
 date:   2024-01-01 22:21:59 +00:00
 image: /images/mavrogiannis2024abstracting.png
 categories: research
-newyear: 
+year: 2024
+venue_short: "IJRR '24 (WAFR 2022 special issue)"
 author: "Christoforos Mavrogiannis"
 authors: "Christoforos Mavrogiannis, Jonathan DeCastro, Siddhartha Srinivasa"
 venue: "The International Journal of Robotics Research, WAFR 2022 Special Issue"

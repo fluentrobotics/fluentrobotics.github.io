@@ -1,0 +1,26 @@
+# Lab robots, shown on /robots. "seen_in" links can point to paper pages (/pubs/...) or anywhere else.
+
+- name: Elephant
+  photo: /tn/images/elephant.webp
+  description: Neobotix MPO-700, augmented with a UR10e arm and an OnRobot VG10 vacuum gripper.
+
+- name: Alpaca
+  photo: /tn/images/alpaca.webp
+  description: AgileX Ranger Mini 3, augmented with an aluminum body, a Velodyne VLP16 Lidar, a Zed Mini Stereo camera, onboard computation, screen, microphone, and speaker.
+
+- name: Stretch 2
+  photo: /tn/images/stretch.webp
+  description: As shipped by Hello Robot.
+  seen_in:
+    - { label: "HRI 2025", url: /pubs/yang2025implicit }
+    - { label: "ICRA 2026", url: /pubs/stratton2026bi3 }
+    - { label: "HRI 2026a", url: /pubs/stratton2026hmp2nav }
+    - { label: "HRI 2026b", url: /pdfs/goyal2026rethinking.pdf }
+
+- name: MuSHR cars
+  photo: /tn/images/mushr-cropped.png
+  description: Fleet of <a href="https://mushr.io">MuSHR</a> 1/10 racecars.
+  seen_in:
+    - { label: "IROS 2023", url: /pubs/taliathareja2023pushr }
+    - { label: "ICRA 2025", url: /pubs/ahn2025relopush }
+    - { label: "IROS 2026", url: /pubs/ahn2026relopushboss }
